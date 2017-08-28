@@ -20,6 +20,7 @@
 		06A988121F53A08000B378AA /* HTTPRequestClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9880F1F53A08000B378AA /* HTTPRequestClientProtocol.swift */; };
 		06A988141F53B9A500B378AA /* JustHTTPRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A988131F53B9A500B378AA /* JustHTTPRequestClient.swift */; };
 		06A988171F53BE0D00B378AA /* Just.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A988161F53BE0D00B378AA /* Just.framework */; };
+		06A9881A1F53C0C900B378AA /* HTTPRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A988191F53C0C900B378AA /* HTTPRequestClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		06A9880F1F53A08000B378AA /* HTTPRequestClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestClientProtocol.swift; sourceTree = "<group>"; };
 		06A988131F53B9A500B378AA /* JustHTTPRequestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustHTTPRequestClient.swift; sourceTree = "<group>"; };
 		06A988161F53BE0D00B378AA /* Just.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Just.framework; path = Carthage/Build/iOS/Just.framework; sourceTree = "<group>"; };
+		06A988191F53C0C900B378AA /* HTTPRequestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 				06A9880E1F53A08000B378AA /* HTTPRequestMethod.swift */,
 				06A9880F1F53A08000B378AA /* HTTPRequestClientProtocol.swift */,
 				06A988131F53B9A500B378AA /* JustHTTPRequestClient.swift */,
+				06A988191F53C0C900B378AA /* HTTPRequestClient.swift */,
 			);
 			path = HTTPRequestClientModule;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			files = (
 				06A988101F53A08000B378AA /* HTTPRequestError.swift in Sources */,
 				06A988001F5394C200B378AA /* ItemListTableViewController.swift in Sources */,
+				06A9881A1F53C0C900B378AA /* HTTPRequestClient.swift in Sources */,
 				06A988121F53A08000B378AA /* HTTPRequestClientProtocol.swift in Sources */,
 				06A987D01F536E8900B378AA /* AppDelegate.swift in Sources */,
 				06A988141F53B9A500B378AA /* JustHTTPRequestClient.swift in Sources */,
