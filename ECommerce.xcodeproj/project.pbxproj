@@ -15,6 +15,9 @@
 		06A987FE1F5390E900B378AA /* ItemList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A987FD1F5390E900B378AA /* ItemList.storyboard */; };
 		06A988001F5394C200B378AA /* ItemListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A987FF1F5394C200B378AA /* ItemListTableViewController.swift */; };
 		06A988041F53964D00B378AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A988031F53964D00B378AA /* Constants.swift */; };
+		06A988101F53A08000B378AA /* HTTPRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9880D1F53A08000B378AA /* HTTPRequestError.swift */; };
+		06A988111F53A08000B378AA /* HTTPRequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9880E1F53A08000B378AA /* HTTPRequestMethod.swift */; };
+		06A988121F53A08000B378AA /* HTTPRequestClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9880F1F53A08000B378AA /* HTTPRequestClientProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 		06A987FD1F5390E900B378AA /* ItemList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ItemList.storyboard; sourceTree = "<group>"; };
 		06A987FF1F5394C200B378AA /* ItemListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListTableViewController.swift; sourceTree = "<group>"; };
 		06A988031F53964D00B378AA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		06A9880D1F53A08000B378AA /* HTTPRequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestError.swift; sourceTree = "<group>"; };
+		06A9880E1F53A08000B378AA /* HTTPRequestMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestMethod.swift; sourceTree = "<group>"; };
+		06A9880F1F53A08000B378AA /* HTTPRequestClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestClientProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 		06A987CE1F536E8900B378AA /* ECommerce */ = {
 			isa = PBXGroup;
 			children = (
+				06A988051F53999800B378AA /* Services */,
 				06A988011F53960300B378AA /* Helpers */,
 				06A987F61F53727E00B378AA /* Features */,
 				06A987EF1F5371B100B378AA /* Resources */,
@@ -151,6 +158,7 @@
 		06A988011F53960300B378AA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				06A988061F539BA400B378AA /* HTTPRequestClientModule */,
 				06A988021F53962200B378AA /* Constants */,
 			);
 			path = Helpers;
@@ -162,6 +170,23 @@
 				06A988031F53964D00B378AA /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		06A988051F53999800B378AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		06A988061F539BA400B378AA /* HTTPRequestClientModule */ = {
+			isa = PBXGroup;
+			children = (
+				06A9880D1F53A08000B378AA /* HTTPRequestError.swift */,
+				06A9880E1F53A08000B378AA /* HTTPRequestMethod.swift */,
+				06A9880F1F53A08000B378AA /* HTTPRequestClientProtocol.swift */,
+			);
+			path = HTTPRequestClientModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A988101F53A08000B378AA /* HTTPRequestError.swift in Sources */,
 				06A988001F5394C200B378AA /* ItemListTableViewController.swift in Sources */,
+				06A988121F53A08000B378AA /* HTTPRequestClientProtocol.swift in Sources */,
 				06A987D01F536E8900B378AA /* AppDelegate.swift in Sources */,
 				06A988041F53964D00B378AA /* Constants.swift in Sources */,
+				06A988111F53A08000B378AA /* HTTPRequestMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
