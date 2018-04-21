@@ -21,6 +21,7 @@
 		06A988141F53B9A500B378AA /* JustHTTPRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A988131F53B9A500B378AA /* JustHTTPRequestClient.swift */; };
 		06A988171F53BE0D00B378AA /* Just.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A988161F53BE0D00B378AA /* Just.framework */; };
 		06A9881A1F53C0C900B378AA /* HTTPRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A988191F53C0C900B378AA /* HTTPRequestClient.swift */; };
+		06A9881C1F53C37700B378AA /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A9881B1F53C37700B378AA /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		06A988131F53B9A500B378AA /* JustHTTPRequestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustHTTPRequestClient.swift; sourceTree = "<group>"; };
 		06A988161F53BE0D00B378AA /* Just.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Just.framework; path = Carthage/Build/iOS/Just.framework; sourceTree = "<group>"; };
 		06A988191F53C0C900B378AA /* HTTPRequestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestClient.swift; sourceTree = "<group>"; };
+		06A9881B1F53C37700B378AA /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			children = (
 				06A987FD1F5390E900B378AA /* ItemList.storyboard */,
 				06A987FF1F5394C200B378AA /* ItemListTableViewController.swift */,
+				06A9881B1F53C37700B378AA /* ItemTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A988101F53A08000B378AA /* HTTPRequestError.swift in Sources */,
+				06A9881C1F53C37700B378AA /* ItemTableViewCell.swift in Sources */,
 				06A988001F5394C200B378AA /* ItemListTableViewController.swift in Sources */,
 				06A9881A1F53C0C900B378AA /* HTTPRequestClient.swift in Sources */,
 				06A988121F53A08000B378AA /* HTTPRequestClientProtocol.swift in Sources */,

@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCellIdentifier" rowHeight="146" id="677-JY-U7y">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCellIdentifier" rowHeight="146" id="677-JY-U7y" customClass="ItemTableViewCell" customModule="ECommerce" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="146"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="677-JY-U7y" id="mN4-Mc-HVM">
@@ -27,28 +27,28 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVs-XJ-HBd">
-                                            <rect key="frame" x="8" y="8" width="398" height="129.66666666666666"/>
+                                            <rect key="frame" x="16" y="16" width="382" height="114"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="X4m-xJ-2nF">
-                                                    <rect key="frame" x="154" y="8" width="236" height="22"/>
+                                                    <rect key="frame" x="136.33333333333337" y="8" width="237.66666666666663" height="22"/>
                                                     <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="19"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item seller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VpY-to-EQq">
-                                                    <rect key="frame" x="154" y="38" width="236" height="15"/>
+                                                    <rect key="frame" x="136.33333333333337" y="38" width="237.66666666666663" height="15"/>
                                                     <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="13"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tvO-ku-aDZ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="146" height="129.66666666666666"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="128.33333333333334" height="114"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="tvO-ku-aDZ" secondAttribute="height" multiplier="128:113" id="G1J-gz-UbL"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$79,00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Gfx-1r-rMN">
-                                                    <rect key="frame" x="310" y="99" width="80" height="22"/>
+                                                    <rect key="frame" x="294" y="83.333333333333329" width="80" height="22"/>
                                                     <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="19"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -71,13 +71,16 @@
                                         </view>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="SVs-XJ-HBd" secondAttribute="bottom" constant="8" id="Qhk-pH-jeI"/>
-                                        <constraint firstItem="SVs-XJ-HBd" firstAttribute="top" secondItem="mN4-Mc-HVM" secondAttribute="top" constant="8" id="XeF-9U-mH9"/>
-                                        <constraint firstItem="SVs-XJ-HBd" firstAttribute="leading" secondItem="mN4-Mc-HVM" secondAttribute="leading" constant="8" id="f3m-x7-IyR"/>
-                                        <constraint firstAttribute="trailing" secondItem="SVs-XJ-HBd" secondAttribute="trailing" constant="8" id="m2i-W7-mIK"/>
+                                        <constraint firstAttribute="bottom" secondItem="SVs-XJ-HBd" secondAttribute="bottom" constant="16" id="Qhk-pH-jeI"/>
+                                        <constraint firstItem="SVs-XJ-HBd" firstAttribute="top" secondItem="mN4-Mc-HVM" secondAttribute="top" constant="16" id="XeF-9U-mH9"/>
+                                        <constraint firstItem="SVs-XJ-HBd" firstAttribute="leading" secondItem="mN4-Mc-HVM" secondAttribute="leading" constant="16" id="f3m-x7-IyR"/>
+                                        <constraint firstAttribute="trailing" secondItem="SVs-XJ-HBd" secondAttribute="trailing" constant="16" id="m2i-W7-mIK"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="cardView" destination="SVs-XJ-HBd" id="jkq-zw-ehr"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
